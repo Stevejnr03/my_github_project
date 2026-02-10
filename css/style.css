@@ -1,0 +1,642 @@
+.header {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d30e0e;
+    padding: 0 10rem 0 0;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+
+
+}
+
+.supreme-logo {
+    font-size: 4rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sup {
+    background-color:#002672;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    font-size: 5rem;
+    padding: 2.2rem 1rem 1.2rem 10rem;
+}
+
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  .icon-mobile-nav {
+    height: 3.2rem;
+    width: 3.2rem;
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    background-color: #002672;
+    border-radius: 3px;
+  }
+  
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
+  
+
+.cta-links {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    align-items: center;
+}
+
+.cta-link:link,
+.cta-link:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cta-link:hover,
+.cta-link:active {
+    background-color: #c70909;
+    border-radius: 2px;
+}
+
+/* SECTION-SIGN-UP / LOG-IN */
+
+.section-sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.185),
+        rgba(44, 14, 177, 0.007)
+      ),
+      url("../img/sign-up.jpg");
+    background-size: cover;
+    background-position:top;
+}
+
+.section-log-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.185),
+        rgba(44, 14, 177, 0.007)
+      ),
+      url("../img/login.jpg");
+    background-size: cover;
+    background-position:top;
+}
+
+.log-in,
+.sign-up {
+    background-color: #fff;
+    width: 50%;
+    padding: 3.2rem;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.log-in-text,
+.sign-up-text {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    margin-bottom: 2.8rem;
+  }
+  .log-in-form label,
+  .sign-up-form label {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+  }
+
+.sign-up-form select,
+.sign-up-form input,
+.log-in-form select,
+.log-in-form input {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #00267221;
+  text-align: center;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
+}
+
+.sign-up-form input::placeholder {
+  color: #aaa;
+}
+
+.log-in-form button,
+.sign-up-form button {
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    font-family: inherit;
+    background-color: #002672;
+    align-self: end;
+    padding: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  
+  .log-in-form button:hover,
+  .sign-up-form button:hover {
+    background-color: #e10000;
+    color: #fff;
+  }
+
+/* MAIN_NAV */
+
+
+
+.main-nav {
+    /* background-color: #fff; */
+    height: 5rem;
+    display: flex;
+    /* box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03); */
+    padding: 0 10rem;
+    justify-content: center;
+
+}
+
+
+
+.main-nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+.link:link,
+.link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #222;
+    padding: 1.5rem 1rem;
+
+}
+
+.link:hover,
+.link:active {
+  background-color: #eee;
+}
+
+/* HERO SECTION */
+
+.sect-hero {
+    padding: 8rem 3rem 4rem;
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.185),
+        rgba(0, 0, 0, 0.034)
+      ),
+      url("../img/hero-1.jpg");
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero-text {
+    padding: 2rem;
+
+}
+
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.hero-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.hero-link:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.hero-icon {
+    font-size: 1.8rem;
+    margin-bottom: -4px;
+    color: #fff;
+}
+
+/* SECT-2 */
+
+.sect-2 {
+    margin-top: 5rem;
+    padding: 5rem 0;
+}
+
+.nba,.sancho,.xavi {
+    background-color: #fff;
+}
+
+.img-box {
+    overflow: hidden;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+  transition: all 0.4s;
+
+}
+
+.img:hover {
+  transform: scale(1.1);
+
+}
+
+.nba {
+    grid-row: 1/3;
+    padding-bottom: 5.5rem;
+}
+
+.xavi {
+    grid-column: 2/-1;
+}
+
+.text-box {
+    padding: 2rem;
+}
+
+/* SECT_3 */
+
+.sect-3 {
+    margin: 5rem 0;
+}
+
+.tyreek {
+    background-color: #fff;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+
+}
+
+/* SECT-4 */
+
+.sect-4 {
+    margin-bottom: 5rem;
+}
+
+
+.feat {
+    background-color: #fff;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.icon-box {
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+
+}
+
+.feat-icon {
+    width: 8rem;
+    height: 8rem;
+    color: #fff;
+}
+
+/* SECT-5 */
+
+.sect-5 {
+    margin-bottom: 5rem;
+
+}
+
+.fif {
+    background-color: #fff;
+}
+
+.vid-text {
+  padding: 4rem 2rem;
+}
+
+/* SECT_6 */
+
+.sect-6 {
+    margin-bottom: 5rem;
+}
+
+.trends {
+    background-color: #fff;
+    padding: 5rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.trend {
+    font-size: 1.8rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #bbb;
+    line-height: 1.5;
+}
+
+.trend:hover {
+    text-decoration: underline;
+}
+
+/* SECT-7 */
+
+.sect-7 {
+    margin-bottom: 5rem;
+}
+
+.sev {
+    background-color: #002672;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: #fff;
+}
+
+.about-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+/* FOOOTER SECTION */
+footer {
+    background-color: #fff;
+
+}
+
+.footer-logo {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.fot-sup {
+    color: #002672;
+    letter-spacing: -2px;
+    font-weight: bolder;
+}
+
+.spo {
+    padding: 0.25rem 0.5rem;
+    border-radius: 2px;
+    background-color: #e10000;
+    margin-left: -2px;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.2rem 0;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 0.4rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+    border-bottom: 3px solid #e10000;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    justify-self: end;
+  }
+  
+  .social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #002672;
+    transition: all 0.4s;
+  }
+  
+  .social-icon:hover {
+    color: #e10000;
+  }
+  
+  .copyright {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding: 4.8rem 0;
+    border-top: 1px solid #e10000;
+    text-align: center;
+  }
+
+  /* SPorts Page */
+  .section-football {
+    margin-bottom: 10rem;
+  }
+
+  .football {
+    background-color: #fff;
+  }
+
+  .man-u {
+    grid-row: 1/3;
+    padding-bottom: 5.5rem;
+  }
+
+  .more-box {
+    padding: 3rem;
+  }
+
+ .more:link,
+ .more:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #002672;
+    padding: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.4s;
+
+    /* transform: translatey(-300%); */
+  } 
+
+  .more:hover,
+  .more:active {
+    background-color: #e10000;
+  }
+
+
+  /* WATCH PAGE */
+
+  .section-watch {
+    margin-bottom: 10rem;
+  }
+
+  .bruno {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1/-1;
+    align-items: center ;
+  }
+
+  .watch-link:link,
+  .watch-link:visited {
+    margin-top: 3rem;
+    background-color: #e10000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  .watch-link:hover,
+  .watch-link:active {
+    background-color: #002672;
+  }
+
+
+  #football {
+    margin-bottom: 10rem;
+  }
+
+  /* STANDINGS page */
+
+  .standings {
+    background-color: #fff;
+  }
+
+
+  
+
+html{
+  background-color: #000000;
+
+}
+
+
+.ptable table{
+	border-collapse: collapse;
+    width:100%;
+
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th{
+	background-color: #002672;
+	color: #fff;
+    font-size: 1.8rem;
+}
+
+
+
+.wpos{
+	text-align: center;
+}
+
+.wpos td{
+	color: #222;
+    font-size: 1.6rem;
+}
+
+.pos{
+	text-align: center;
+}
+
+.pos td{
+	color: #222;
+    font-size: 1.6rem;
+}
+
+table .col{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.wpos:hover{
+	background-color: #e10000;
+    color: white;
+}
+
+.wpos:hover td{
+	color: #000000;
+}
+
+.pos:hover{
+	background-color: #e10000;
+    color: #fff;
+}
+
+.pos:hover td{
+	color: #000000;
+}
+  
+
